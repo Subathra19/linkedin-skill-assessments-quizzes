@@ -346,3 +346,14 @@ FROM Students
 - [ ] UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id='56295';
 - [ ] UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id=56295;
 - [x] UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id=56295;
+
+#### Q34. You would like to have a record added to a TableB every time a record is modified in TableA. What technique should you look at implementing?
+
+- [ ] You should create a DML trigger on the server.
+- [ ] You should create a DDL trigger on the database.
+- [ ] You should create a DML trigger on TableA.
+- [x] You should create a DML trigger on TableB.
+
+
+
+
